@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h2 {
+  font-size: 32.2px;
+}
+
+.controller {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.preview {
+  background-color: blue;
+  padding: 0px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#text {
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #000000;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Введение в HTML/CSS</title>
+    <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/reveal.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/reveal.js/dist/theme/black.css"
+    />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2>Введение в HTML и CSS</h2>
+          <p>Основы создания веб-страниц с использованием HTML и CSS</p>
+        </section>
+        <section>
+          <h2>Что такое HTML?</h2>
+          <p>
+            HTML (HyperText Markup Language) - язык разметки для создания
+            веб-страниц.
+          </p>
+          <p>
+            HTML задает структуру контента. Состоит из элементов, которые строят
+            различные части веб-страницы c помощью тегов.
+          </p>
+        </section>
+        <section>
+          <h2>Основные теги HTML</h2>
+          <ul>
+            <li><code>&lt;html&gt;</code> - корневой элемент</li>
+            <li>
+              <code>&lt;head&gt;</code> - метаинформация, контейнер для таких
+              элементов как title, style, meta, link, script
+            </li>
+            <li>
+              <code>&lt;title&gt;</code> - заголовок страницы, отображающийся на
+              верхней панели браузера
+            </li>
+            <li>
+              <code>&lt;body&gt;</code> - основное содержимое, включает весь
+              контент который видит пользователь
+            </li>
+            <li>
+              <code>&lt;h1&gt; - &lt;h6&gt;</code> - заголовки, от наиболее
+              значимого до наимее, должны отличаться по размеру шрифта
+            </li>
+            <li>
+              <code>&lt;p&gt;</code> - параграф, текст который содержит более
+              одной строки
+            </li>
+            <li><code>&lt;a&gt;</code> - ссылка</li>
+            <li><code>&lt;img&gt;</code> - изображение</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Что такое CSS?</h2>
+          <p>
+            Cascading Style Sheets — это язык иерархических таблиц стилей,
+            используемый для представления внешнего вида документа, написанного
+            на HTML или XML, включая различные языки XML, такие как SVG и XHTML.
+            CSS описывает, каким образом элемент должен отображаться на экране.
+          </p>
+          <div>Управляет цветами, шрифтами, отступами наших тегов.</div>
+        </section>
+        <section>
+          <h2>Основные свойства CSS</h2>
+          <ul>
+            <li><code>color</code> - цвет текста</li>
+            <li><code>background-color</code> - цвет фона</li>
+            <li><code>font-size</code> - размер шрифта</li>
+            <li><code>margin</code> - внешние отступы</li>
+            <li><code>padding</code> - внутренние отступы</li>
+            <li><code>border</code> - граница элемента</li>
+          </ul>
+        </section>
+        <section
+          data-background-iframe="./controller/controller.html"
+        ></section>
+        <section>
+          <h2>Пример использования HTML и CSS</h2>
+          <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+          &lt;style&gt;
+            body {
+              background-color: #f0f0f0;
+              font-family: Arial, sans-serif;
+            }
+            h1 {
+              color: #333;
+              text-align: center;
+            }
+            p {
+              color: #666;
+              font-size: 14px;
+              line-height: 1.6;
+            }
+          &lt;/style&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+          &lt;h1&gt;Привет, мир!&lt;/h1&gt;
+          &lt;p&gt;Это пример простой HTML-страницы с использованием CSS.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+          </code></pre>
+        </section>
+        <section>
+          <h2>Заключение</h2>
+          <p>
+            HTML и CSS - основа веб-разработки. Освоение этих технологий
+            открывает двери в мир создания веб-сайтов.
+          </p>
+        </section>
+        <section>
+          <h2>Вопросы?</h2>
+        </section>
+        <section>
+          <h2>Спасибо за внимание!</h2>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/reveal.js/dist/reveal.js"></script>
+    <script>
+      Reveal.initialize();
+    </script>
+  </body>
+</html>

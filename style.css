@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none !important;
+  line-height: 40px !important;
+}
+
+code {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h2 {
+  font-size: 32.2px !important;
+  text-transform: inherit !important;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Property Controller</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="controller">
+      <h2>CSS контроллер</h2>
+      <div>
+        <label for="fontSize">Font Size (px): </label>
+        <input type="number" id="fontSize" value="16" min="10" max="100" />
+      </div>
+      <div>
+        <label for="color">Text Color: </label>
+        <input type="color" id="color" value="#000000" />
+      </div>
+      <div>
+        <label for="backgroundColor">Background Color: </label>
+        <input type="color" id="backgroundColor" value="#ffffff" />
+      </div>
+      <div>
+        <label for="margin">Margin (px): </label>
+        <input type="number" id="margin" value="10" min="0" max="100" />
+      </div>
+      <div>
+        <label for="padding">Padding (px): </label>
+        <input type="number" id="padding" value="10" min="0" max="100" />
+      </div>
+      <div>
+        <label for="border">Border (px): </label>
+        <input type="number" id="border" value="1" min="0" max="20" />
+      </div>
+    </div>
+
+    <div class="preview">
+      <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
