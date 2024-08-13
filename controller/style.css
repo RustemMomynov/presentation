@@ -1,10 +1,18 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #191919;
+}
+
+.container {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  max-width: 1120px;
   height: 100vh;
-  margin: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: 0 auto;
 }
 
 h2 {

@@ -9,7 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const borderInput = document.getElementById("border");
 
   fontSizeInput.addEventListener("input", () => {
-    text.style.fontSize = `${fontSizeInput.value}px`;
+    if (fontSizeInput.value < 20) {
+      text.style.fontSize = `${fontSizeInput.value}px`;
+    }
   });
 
   colorInput.addEventListener("input", () => {
